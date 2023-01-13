@@ -1,8 +1,14 @@
 import './App.scss';
-import Homepage from "./components/Homepage"
+import Homepage from "./pages/Homepage"
+import Register from "./pages/register";
+import Watch from "./pages/watch";
+// import Login from "./pages/login";
+// import Login from "./pages/forgotPassword";
+import Login from "./pages/forgotPasswordRegister";
+
 function App() {
   return (
-    <Homepage/>
+    <Login/>
   );
 }
 
